@@ -27,7 +27,7 @@ img {
     display: block;
     margin: auto;
     margin-bottom: 15px;
-    height: 200px;
+    height: 400px;
     border-radius: 18px;
 }
 
@@ -46,6 +46,7 @@ ul {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .box-container {
@@ -54,6 +55,7 @@ ul {
     margin: 0 40px;
     justify-content: space-evenly;
     padding-top: 0;
+    flex-wrap: wrap;
 }
 
 .box-heading {
@@ -79,11 +81,6 @@ ul {
 .right {
     display: flex;
     flex-direction: column;
-}
-
-.challenge {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {
